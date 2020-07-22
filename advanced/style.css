@@ -23,6 +23,7 @@ body {
 	width: 300px;
 	margin: 40px auto 40px;
 	padding: 10px 30px;
+	min-height: 400px;
 }
 
 h1 {
@@ -31,6 +32,7 @@ h1 {
 	font-weight: lighter;
 	font-size: 60px;
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .form-container {
@@ -60,6 +62,7 @@ h1 {
 		font-size: 1.03em;
 		font-weight: bold;
 		letter-spacing: 1px;
+		cursor: pointer;
 	}
 
 .todo-list__items-list {
@@ -76,6 +79,7 @@ i {
 	float: right;
 	color: var(--color-gray);
 	margin: 0 3px;
+	cursor: pointer;
 }
 
 .fas.fa-check-circle {
@@ -83,6 +87,6 @@ i {
 	color: var(--color-accept);
 }
 
-.lighter {
+.light span {
 	color: var(--color-gray-lighter);
 }
